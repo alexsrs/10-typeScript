@@ -1,0 +1,21 @@
+{
+  "name": "10-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "npx tsc",
+    "start:dev": "npm run dist && node src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
